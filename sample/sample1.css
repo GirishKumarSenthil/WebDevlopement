@@ -1,0 +1,26 @@
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: #0af3e7;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width:600px) {
+    body{
+        background-color: chartreuse;
+    }
+    .square:hover{
+        background-color: #148fc4;
+    }
+}
+
+@media screen and (min-width:601px) {
+    body{
+        background-color: #0af3e7;
+    } 
+    .square:hover {
+        background-color: #5814c4;
+    }
+}

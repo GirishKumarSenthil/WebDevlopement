@@ -1,0 +1,39 @@
+body{
+    position: relative;
+    left: 650px;
+    top: 280px;
+    width: 100vb;
+}
+
+.container{
+    position: relative;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    position: absolute;
+    left: 0px;
+   
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    align-self: flex-end;
+    position: absolute;
+    left: 70px;
+    top: 70px;  
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    position: absolute;
+    left: 140px;
+    top: 140px;
+}
+
